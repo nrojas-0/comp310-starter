@@ -16,8 +16,8 @@ int main(){
         System.out.println("Product: " + (num1 * num2));
         System.out.println("Quotient: " + (num1 / num2));
     */
-    printf("Sum: %lf", num1 + num2);
-    printf("Difference: %lf", (num1 - num2));
-    printf("Product: %lf", (num1 * num2));
-    printf("Quotient: %lf", (num1 / num2));
+    printf("Sum: %.2f\n", num1 + num2); //use %.2f to only print out 2 decimal spaces
+    printf("Difference: %.2f\n", (num1 - num2));
+    printf("Product: %.2f\n", (num1 * num2));
+    printf("Quotient: %.2f\n", (num1 / num2));
 }
