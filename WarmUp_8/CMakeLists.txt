@@ -1,4 +1,4 @@
 add_executable(
-    LinkedLists
-    LinkedLists.c
+    LinkedList
+    LinkedList.c
     )
