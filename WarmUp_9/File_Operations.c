@@ -9,24 +9,5 @@ int main(){
     fprintf(fw, "Hello, World!");
     fclose(fw);
     //Read from file
-    fw = fopen(filename, "r");
-    while(fgets(fw, sizeof(fw), fw)){
-        printf("%s\n", fw)
-    }
     return 0;
 }
-/*
-import java.io.*;
-
-public class FileOperations {
-    public static void main(String[] args) throws IOException {
-
-        BufferedReader br = new BufferedReader(new FileReader(filename));
-        String line;
-        while ((line = br.readLine()) != null) {
-            System.out.println(line);
-        }
-        br.close();
-    }
-}
-*/
