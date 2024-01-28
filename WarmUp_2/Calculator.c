@@ -20,5 +20,5 @@ int main(){
     printf("Difference: %.2f\n", (num1 - num2));
     printf("Product: %.2f\n", (num1 * num2));
     printf("Quotient: %.2f\n", (num1 / num2));
-    return EXIT_SUCCESS;
+    return 0;
 }

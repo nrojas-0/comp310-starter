@@ -9,7 +9,7 @@ int main(){
         sum += numbers[i];
     }
     double avg = sum / totalnum; //get average of array
-    printf("Sum: $d\n", sum);
-    printf("Average: %f\n", avg);
+    printf("Sum: %d\n", sum);
+    printf("Average: %.2f\n", avg);
     return 0; //same as return 0
 }
