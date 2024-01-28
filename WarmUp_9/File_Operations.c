@@ -8,7 +8,11 @@ int main(){
     FILE *fw = fopen(filename, "w"); //Open for writing in text mode
     fprintf(fw, "Hello, World!");
     fclose(fw);
-
+    //Read from file
+    fw = fopen(filename, "r");
+    while(fgets(fw, sizeof(fw), fw)){
+        printf("%s\n", fw)
+    }
     return 0;
 }
 /*
