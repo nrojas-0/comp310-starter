@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    char filename = "example.txt";
+    char filename[] = "example.txt";
     //Used https://www.geeksforgeeks.org/basics-file-handling-c/ as reference because I didn't know the commands for fileoperations in c
     //Write in file
     FILE *fw = fopen(filename, "w"); //Open for writing in text mode
