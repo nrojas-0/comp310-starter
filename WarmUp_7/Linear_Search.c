@@ -1,8 +1,5 @@
 //Objective: Create a program to perform a linear search on an array of integers.
-/*
-cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build
-      cmake --build build
-*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int linearSearch(int arr[], int target){
